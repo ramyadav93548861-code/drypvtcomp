@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D.R.Y Private Company - House Management & Renovation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f8fa;
+        }
+        header {
+            background: #0b63a8;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+        .gallery {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        .gallery img {
+            width: 30%;
+            border-radius: 8px;
+        }
+        footer {
+            background: #0b63a8;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .btn-call {
+            background: #0b63a8;
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>D.R.Y Private Company</h1>
+    <p>House Management & Renovation Experts</p>
+</header>
+
+<div class="container">
+
+    <h2>Luxury & Affordable Renovation</h2>
+    <p>
+        We provide luxury quality services with flexible working hours and affordable rates in New Delhi.  
+        Your comfort is our first priority. We transform your home into a modern and stylish space with 
+        professional renovation, complete house management and trusted maintenance services.
+    </p>
+
+    <h3>Our Work Photos</h3>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/300x200?text=Kitchen+Work" alt="Kitchen Renovation">
+        <img src="https://via.placeholder.com/300x200?text=Living+Room" alt="Interior Design">
+        <img src="https://via.placeholder.com/300x200?text=False+Ceiling" alt="Ceiling Design">
+    </div>
+
+    <h3>Contact Us</h3>
+    <p><strong>Call Now:</strong> <a class="btn-call" href="tel:+919354886143">9354886143</a></p>
+
+    <h3>Address</h3>
+    <p>House no. 137/2 Rampura,<br>New Delhi - 110035</p>
+
+    <h3>Instagram</h3>
+    <p>
+        <a href="https://instagram.com/d.r.y_pvt_com" target="_blank">@d.r.y_pvt_com</a>
+    </p>
+
+</div>
+
+<footer>
+    © 2025 D.R.Y Private Company. Luxury for every home.
+</footer>
+
+</body>
+</html>
